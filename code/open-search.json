@@ -1,0 +1,15 @@
+{
+    "mappings": {
+        "properties": {
+            "document_id": { "type": "keyword" },
+            "embedding_vector": { "type": "dense_vector", "dims": 1536 }, // This is a notional size
+            "text_chunk": { "type": "text" },
+            "metadata": {
+                "properties": {
+                    "container_id": { "type": "keyword" },
+                    "created_at": { "type": "date" }
+                }
+            }
+        }
+    }
+}

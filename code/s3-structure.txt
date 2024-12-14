@@ -1,0 +1,2 @@
+s3://raggady-documents/{containerId}/{document_id}/doc
+s3://raggady-documents/{containerId}/{document_id}/metadata.json
